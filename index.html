@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="fr">
+<head
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portail-fp2e.eptech.pro </title>
+    <style>
+        header {
+            display: flex;
+            /* active flexbox */
+            justify-content: space-between;
+
+            align-items: center;
+            padding: 10px 40px ;
+            background-color :white;
+            margin:0%;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+.auth-button {
+            margin-left: 10px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+.body {
+            height: 100%;  
+            display: flex;
+            flex-direction: column;
+            background-color: green;
+            margin: 50%;
+}
+.hero{
+        display: flex;
+        align-items: self-start;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60PX;
+        background : vert1;
+        border-radius: 5px;
+        cursor: pointer;
+        align-items: flex-start;
+        background-color: green;
+        
+     }
+     .hero-text{
+        max-width: 50%;
+        transform: translateX(200px);
+        margin-right: 50px;
+        margin-right: auto;
+        background: green;
+
+
+     }
+     .hero-text h1{
+        font-size: 48px;
+        line-height: 1.2;
+        
+    
+     }
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+
+
+ .main {
+  flex: 1;  
+  padding: 20px;
+  background : green;
+}
+
+/* footer en bas */
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+.btn-connexion {
+  background-color:green ;
+  color: white;
+  border: none;
+  
+  border: 20px;
+  
+}
+
+.btn-enregistrer {
+  background-color: white;  /* couleur de fond différente */
+  color: green;
+  border: 10px
+  cursor pointer;
+}
+.button { 
+    justify-content: center;
+}
+    
+.highlight {
+    color: #ffc107; 
+}
+.p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    color: white;
+    
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    display: block;
+    margin: 0;
+    
+    
+border: 1px solid green;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+ }
+
+.search-bar input[type="text"] {
+    width: 60%;
+    max-width: 500px;
+    padding:08px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1em;
+    
+}
+
+.search-bar button {
+    background-color: #ffc107; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.hero-text button:hover {
+    background-color: #e0a800; 
+}
+.flex-container1 {
+  display: flex;
+  background-color: green;
+  text-align: center;
+  justify-content: center;
+}
+
+.flex-container1> div {
+  background-color: green;
+  color: white;
+  width: 200px;
+  line-height: 45px;
+  font-size: 30px;
+  text-align: center;
+}
+ .texte {
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    flex-basis: 50%;
+ }
+.conteneur-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px ;
+    border: 1p solid black;
+}
+
+
+
+.hero-card {  
+    background: green;
+
+    
+    border: 1px solid green;
+    text-align: center;
+
+ }
+    
+    
+
+
+
+.hero-card img{ 
+    border: 1px solid blue;
+    
+    transform: translateX(500px);
+    height: auto;
+    transform: scale(O.5);
+    
+    display: block;
+ }
+
+    
+
+
+    </style>
+</head>
+<body>
+
+    <header style= "background-color: white;">
+        <div class="logo">
+            PME Bénin
+        </div>
+        <div class="button">
+            <button class="btn-connexion">Se connecter</button>
+            <button class="btn-enregistrer">Enregistrer🔒</button>
+        </div>
+        
+    </header>   
+        <div class="flex-container1">
+            <div>Accueil</div>
+            <div>OEA</div>
+            <div>Ressources </div>
+            <div>Experts Métier </div>
+        </div>
+    
+            
+    <main class="hero" >
+            <div class="conteneur-flex">
+
+                <div class="text">
+    
+                    <h1 style= "color: white">Réalisez votre <span class="highlight">vision</span>,<br> 
+                    développez votre <span class="highlight">potentiel</span> !<br></h1>
+                    <P style="color: white"> plateforme vous offre une large collection d'outils,<br> 
+                     de ressources et un accompagnement unique pour propulser votre entreprise.<br>
+                     Accédez à des tutoriels, podcasts<br>
+                     certifcliantes podir vos compétences.</p>
+                </div>
+                <div class="search-bar" >
+                    
+                    <input type="text" placeholder="Recherchez lois, décrets, arrêtés">
+                    <button type="submit">🔍</button>
+                </div>
+        
+                <div class="hero-card" >
+                     <img src="image.jpg" alt="image">
+                </div>     
+              
+
+                
+            
+        
+    </main>
+
+  
+
+</body>
+</html>
+
+
+
+
